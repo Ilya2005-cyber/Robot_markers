@@ -97,6 +97,7 @@ warehouse_project/
 │               └── hd13.png
 └── scripts/
     └── place_test_marker.py
+```
 
 запускается таким образом:
 
