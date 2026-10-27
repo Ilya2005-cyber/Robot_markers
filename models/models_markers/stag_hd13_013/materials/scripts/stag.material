@@ -1,0 +1,16 @@
+
+material STag/HD13_013
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+
+            texture_unit
+            {
+                texture ../textures/hd13_013.png
+            }
+        }
+    }
+}

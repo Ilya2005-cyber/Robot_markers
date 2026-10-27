@@ -1,0 +1,43 @@
+
+<sdf version="1.7">
+  <model name="stag_hd13_019">
+    <static>true</static>
+
+    <link name="marker_link">
+
+      <visual name="backing">
+        <pose>0 0 -0.001 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.092 0.092 0.002</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+        </material>
+      </visual>
+
+      <visual name="marker_image">
+        <pose>0 0 0.001 0 0 0</pose>
+
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>0.09 0.09</size>
+          </plane>
+        </geometry>
+
+        <material>
+          <script>
+            <uri>file:///home/ilya/Robot_markers/models/models_markers/stag_hd13_019/materials/scripts</uri>
+            <uri>file:///home/ilya/Robot_markers/models/models_markers/stag_hd13_019/materials/textures</uri>
+            <name>STag/HD13_019</name>
+          </script>
+        </material>
+
+      </visual>
+
+    </link>
+  </model>
+</sdf>
