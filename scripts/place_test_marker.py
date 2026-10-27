@@ -2,7 +2,7 @@
 from pathlib import Path
 
 # Главная папка проекта
-PROJECT = Path.home() / "warehouse_project"
+PROJECT = Path.home() / "Robot_markers"
 
 # Исходный мир
 source = PROJECT / "worlds" / "warehouse_base.world"
@@ -22,15 +22,19 @@ if not mesh_path.is_file():
 
 # Читаем исходный мир
 world_text = source.read_text(encoding="utf-8")
-
 # Положение тестового маркера
 marker_x = -0.100
 marker_y = 3.0005
 marker_z = 0.120
 
+marker_model = PROJECT / "models" / "models_markers" / "stag_hd13_000"
+
+if not (marker_model / "model.sdf").is_file():
+    raise FileNotFoundError(f"Не найдена модель HD13: {marker_model}")
+
 marker_sdf = f"""
     <include>
-      <uri>/home/ilya/warehouse_project/models/stag_hd13_test</uri>
+      <uri>{marker_model}</uri>
       <name>hd13_rack4_shelf1</name>
       <pose>{marker_x} {marker_y} {marker_z} 1.570796 0 0</pose>
     </include>
