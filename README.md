@@ -112,3 +112,4 @@ gazebo --verbose ./warehouse_hd13_test.world
 
 
 # Генератор маркеров
+
