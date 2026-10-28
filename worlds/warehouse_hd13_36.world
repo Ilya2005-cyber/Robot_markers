@@ -766,217 +766,217 @@
     </model>
   
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_000</uri>
+      <uri>model://stag_hd13_000</uri>
       <name>hd13_rack1_shelf1</name>
       <pose>-0.016000 0.004500 0.300000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_001</uri>
+      <uri>model://stag_hd13_001</uri>
       <name>hd13_rack1_shelf2</name>
       <pose>-0.016000 0.004500 0.660000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_002</uri>
+      <uri>model://stag_hd13_002</uri>
       <name>hd13_rack1_shelf3</name>
       <pose>-0.016000 0.004500 1.020000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_003</uri>
+      <uri>model://stag_hd13_003</uri>
       <name>hd13_rack1_shelf4</name>
       <pose>-0.016000 0.004500 1.365000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_004</uri>
+      <uri>model://stag_hd13_004</uri>
       <name>hd13_rack1_shelf5</name>
       <pose>-0.016000 0.004500 1.695000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_005</uri>
+      <uri>model://stag_hd13_005</uri>
       <name>hd13_rack1_shelf6</name>
       <pose>-0.016000 0.004500 1.960000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_006</uri>
+      <uri>model://stag_hd13_006</uri>
       <name>hd13_rack2_shelf1</name>
       <pose>-1.351000 0.004500 0.300000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_007</uri>
+      <uri>model://stag_hd13_007</uri>
       <name>hd13_rack2_shelf2</name>
       <pose>-1.351000 0.004500 0.660000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_008</uri>
+      <uri>model://stag_hd13_008</uri>
       <name>hd13_rack2_shelf3</name>
       <pose>-1.351000 0.004500 1.020000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_009</uri>
+      <uri>model://stag_hd13_009</uri>
       <name>hd13_rack2_shelf4</name>
       <pose>-1.351000 0.004500 1.365000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_010</uri>
+      <uri>model://stag_hd13_010</uri>
       <name>hd13_rack2_shelf5</name>
       <pose>-1.351000 0.004500 1.695000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_011</uri>
+      <uri>model://stag_hd13_011</uri>
       <name>hd13_rack2_shelf6</name>
       <pose>-1.351000 0.004500 1.960000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_012</uri>
+      <uri>model://stag_hd13_012</uri>
       <name>hd13_rack3_shelf1</name>
       <pose>-2.686000 0.004500 0.300000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_013</uri>
+      <uri>model://stag_hd13_013</uri>
       <name>hd13_rack3_shelf2</name>
       <pose>-2.686000 0.004500 0.660000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_014</uri>
+      <uri>model://stag_hd13_014</uri>
       <name>hd13_rack3_shelf3</name>
       <pose>-2.686000 0.004500 1.020000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_015</uri>
+      <uri>model://stag_hd13_015</uri>
       <name>hd13_rack3_shelf4</name>
       <pose>-2.686000 0.004500 1.365000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_016</uri>
+      <uri>model://stag_hd13_016</uri>
       <name>hd13_rack3_shelf5</name>
       <pose>-2.686000 0.004500 1.695000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_017</uri>
+      <uri>model://stag_hd13_017</uri>
       <name>hd13_rack3_shelf6</name>
       <pose>-2.686000 0.004500 1.960000 -1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_018</uri>
+      <uri>model://stag_hd13_018</uri>
       <name>hd13_rack4_shelf1</name>
       <pose>-0.016000 3.000500 0.300000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_019</uri>
+      <uri>model://stag_hd13_019</uri>
       <name>hd13_rack4_shelf2</name>
       <pose>-0.016000 3.000500 0.660000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_020</uri>
+      <uri>model://stag_hd13_020</uri>
       <name>hd13_rack4_shelf3</name>
       <pose>-0.016000 3.000500 1.020000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_021</uri>
+      <uri>model://stag_hd13_021</uri>
       <name>hd13_rack4_shelf4</name>
       <pose>-0.016000 3.000500 1.365000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_022</uri>
+      <uri>model://stag_hd13_022</uri>
       <name>hd13_rack4_shelf5</name>
       <pose>-0.016000 3.000500 1.695000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_023</uri>
+      <uri>model://stag_hd13_023</uri>
       <name>hd13_rack4_shelf6</name>
       <pose>-0.016000 3.000500 1.960000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_024</uri>
+      <uri>model://stag_hd13_024</uri>
       <name>hd13_rack5_shelf1</name>
       <pose>-1.351000 3.000500 0.300000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_025</uri>
+      <uri>model://stag_hd13_025</uri>
       <name>hd13_rack5_shelf2</name>
       <pose>-1.351000 3.000500 0.660000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_026</uri>
+      <uri>model://stag_hd13_026</uri>
       <name>hd13_rack5_shelf3</name>
       <pose>-1.351000 3.000500 1.020000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_027</uri>
+      <uri>model://stag_hd13_027</uri>
       <name>hd13_rack5_shelf4</name>
       <pose>-1.351000 3.000500 1.365000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_028</uri>
+      <uri>model://stag_hd13_028</uri>
       <name>hd13_rack5_shelf5</name>
       <pose>-1.351000 3.000500 1.695000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_029</uri>
+      <uri>model://stag_hd13_029</uri>
       <name>hd13_rack5_shelf6</name>
       <pose>-1.351000 3.000500 1.960000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_030</uri>
+      <uri>model://stag_hd13_030</uri>
       <name>hd13_rack6_shelf1</name>
       <pose>-2.686000 3.000500 0.300000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_031</uri>
+      <uri>model://stag_hd13_031</uri>
       <name>hd13_rack6_shelf2</name>
       <pose>-2.686000 3.000500 0.660000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_032</uri>
+      <uri>model://stag_hd13_032</uri>
       <name>hd13_rack6_shelf3</name>
       <pose>-2.686000 3.000500 1.020000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_033</uri>
+      <uri>model://stag_hd13_033</uri>
       <name>hd13_rack6_shelf4</name>
       <pose>-2.686000 3.000500 1.365000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_034</uri>
+      <uri>model://stag_hd13_034</uri>
       <name>hd13_rack6_shelf5</name>
       <pose>-2.686000 3.000500 1.695000 1.570796 0 0</pose>
     </include>
 
     <include>
-      <uri>/home/ilya/Robot_markers/models/models_markers/stag_hd13_035</uri>
+      <uri>model://stag_hd13_035</uri>
       <name>hd13_rack6_shelf6</name>
       <pose>-2.686000 3.000500 1.960000 1.570796 0 0</pose>
     </include>

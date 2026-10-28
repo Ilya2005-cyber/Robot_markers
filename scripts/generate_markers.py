@@ -6,7 +6,7 @@ import shutil
 import xml.etree.ElementTree as ET
 
 # 1. Пути к проекту
-project = Path.home() / "Robot_markers"
+project = Path(__file__).resolve().parent.parent
 source_world = project / "worlds" / "warehouse_base.world"
 output_world = project / "worlds" / "warehouse_hd13_36.world"
 hd = project / "models" / "materials" / "textures" / "HD13"
@@ -116,8 +116,8 @@ material {material_name}
 
         <material>
           <script>
-            <uri>{scripts_dir.as_uri()}</uri>
-            <uri>{textures_dir.as_uri()}</uri>
+            <uri>model://{model_name}/materials/scripts</uri>
+            <uri>model://{model_name}/materials/textures</uri>
             <name>{material_name}</name>
           </script>
         </material>
@@ -206,14 +206,14 @@ def main():
 
         for shelf_number, local_z in enumerate(shelf_z_values, start=1):
             marker_id = (rack_number - 1) * len(shelf_z_values) + (shelf_number - 1)
-            marker_dir = create_marker_model(marker_id, images[marker_id])
+            create_marker_model(marker_id, images[marker_id])
             marker_x = rack_x + local_x
             marker_y = rack_y + local_y
             marker_z = rack_z + local_z
             marker_name = f"hd13_rack{rack_number}_shelf{shelf_number}"
             marker_block = f"""
     <include>
-      <uri>{marker_dir}</uri>
+      <uri>model://stag_hd13_{marker_id:03d}</uri>
       <name>{marker_name}</name>
       <pose>{marker_x:.6f} {marker_y:.6f} {marker_z:.6f} {marker_roll:.6f} 0 0</pose>
     </include>

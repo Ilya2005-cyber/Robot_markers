@@ -30,8 +30,8 @@
 
         <material>
           <script>
-            <uri>file:///home/ilya/Robot_markers/models/models_markers/stag_hd13_035/materials/scripts</uri>
-            <uri>file:///home/ilya/Robot_markers/models/models_markers/stag_hd13_035/materials/textures</uri>
+            <uri>model://stag_hd13_035/materials/scripts</uri>
+            <uri>model://stag_hd13_035/materials/textures</uri>
             <name>STag/HD13_035</name>
           </script>
         </material>
