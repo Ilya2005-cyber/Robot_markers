@@ -221,7 +221,6 @@ def main():
             marker_blocks.append(marker_block)
     # 6. Сохраняем новый мир; исходный warehouse_base.world не изменяем
     world_text = source_world.read_text(encoding="utf-8")
-    world_text = world_text.replace("/home/ilya/warehouse_project/", str(project) + "/")
     if "</world>" not in world_text:
         raise ValueError("В исходном SDF нет закрывающего тега </world>")
     new_world = world_text.replace("</world>", "".join(marker_blocks) + "\n  </world>", 1)

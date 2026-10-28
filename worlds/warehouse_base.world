@@ -198,7 +198,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ilya/Robot_markers/meshes/Стеллаж 6.stl</uri>
+              <uri>../meshes/Стеллаж 6.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -219,7 +219,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ilya/Robot_markers/meshes/Стеллаж 6.stl</uri>
+              <uri>../meshes/Стеллаж 6.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -296,7 +296,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ilya/Robot_markers/meshes/Стеллаж 6.stl</uri>
+              <uri>../meshes/Стеллаж 6.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -317,7 +317,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ilya/Robot_markers/meshes/Стеллаж 6.stl</uri>
+              <uri>../meshes/Стеллаж 6.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -394,7 +394,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ilya/Robot_markers/meshes/Стеллаж 6.stl</uri>
+              <uri>../meshes/Стеллаж 6.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -415,7 +415,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ilya/Robot_markers/meshes/Стеллаж 6.stl</uri>
+              <uri>../meshes/Стеллаж 6.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -492,7 +492,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ilya/Robot_markers/meshes/Стеллаж 6.stl</uri>
+              <uri>../meshes/Стеллаж 6.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -513,7 +513,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ilya/Robot_markers/meshes/Стеллаж 6.stl</uri>
+              <uri>../meshes/Стеллаж 6.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -590,7 +590,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ilya/Robot_markers/meshes/Стеллаж 6.stl</uri>
+              <uri>../meshes/Стеллаж 6.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -611,7 +611,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ilya/Robot_markers/meshes/Стеллаж 6.stl</uri>
+              <uri>../meshes/Стеллаж 6.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -688,7 +688,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ilya/Robot_markers/meshes/Стеллаж 6.stl</uri>
+              <uri>../meshes/Стеллаж 6.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -709,7 +709,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/ilya/Robot_markers/meshes/Стеллаж 6.stl</uri>
+              <uri>../meshes/Стеллаж 6.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
