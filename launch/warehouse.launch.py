@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 
 from launch import LaunchDescription
@@ -21,10 +20,7 @@ def generate_launch_description():
     xacro_file = project_dir / "robot_description" / "urdf" / "warehouse_r2d2.urdf.xacro"
 
     # Пути для поиска моделей Gazebo
-    model_path = os.pathsep.join([
-        str(project_dir / "models"),
-        str(project_dir / "models" / "models_markers"),
-    ])
+    model_path = str(project_dir / "models" / "models_markers")
 
     gazebo_models = SetEnvironmentVariable(
         name="GAZEBO_MODEL_PATH",
