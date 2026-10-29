@@ -1,5 +1,4 @@
 from pathlib import Path
-
 from launch import LaunchDescription
 from launch.actions import (
     SetEnvironmentVariable,
@@ -18,6 +17,7 @@ def generate_launch_description():
     # Пути к файлам
     world_file = project_dir / "worlds" / "warehouse_hd13_36.world"
     xacro_file = project_dir / "robot_description" / "urdf" / "warehouse_r2d2.urdf.xacro"
+    controllers_file = project_dir / "config" / "controllers.yaml"
 
     # Пути для поиска моделей Gazebo
     model_path = str(project_dir / "models" / "models_markers")
@@ -29,7 +29,12 @@ def generate_launch_description():
 
     # Преобразуем Xacro в URDF
     robot_description = ParameterValue(
-        Command(["xacro ", str(xacro_file)]),
+        Command([
+            "xacro ",
+            str(xacro_file),
+            " controllers_file:=",
+            str(controllers_file)
+        ]),
         value_type=str
     )
 
@@ -70,7 +75,26 @@ def generate_launch_description():
             "-z", "0.60",
         ]
     )
-
+    # Запускакем контроллер, публикующий состояния соединений робота
+    joint_state_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=[
+            "joint_state_broadcaster",
+            "-c", "/controller_manager"
+        ],
+        output="screen"
+    )
+    # Запускаем контроллер движения
+    diff_drive_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=[
+            "diff_drive_controller",
+            "-c", "/controller_manager"
+        ],
+        output="screen"
+    )
     return LaunchDescription([
         gazebo_models,
         gazebo,
@@ -79,4 +103,6 @@ def generate_launch_description():
             period=1.0,
             actions=[spawn_robot]
         ),
+        joint_state_spawner,
+        diff_drive_spawner,
     ])
